@@ -4,7 +4,10 @@ async function addCity() {
     const city = document.getElementById("cityInput").value.trim();
 
     // Si el input está vacío, no hacemos nada
-    if (!city) return;
+    if (!city) {
+        showMessage("Por favor ingresa una ciudad", "error");
+        return;
+    }
 
     // Limpiar el campo de texto después de usarlo
     document.getElementById("cityInput").value = "";
