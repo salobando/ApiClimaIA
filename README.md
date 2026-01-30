@@ -6,36 +6,22 @@ Utiliza la API de Open-Meteo para obtener datos de temperatura, velocidad del vi
 
 ⚙️ Instalación
 
-Requisitos:
-
-Navegador web moderno
-
-Editor de código (opcional)
-
-Pasos:
-
-Clonar o descargar el proyecto.
-
-Abrir el archivo index.html en el navegador.
+1. Clonar o descargar el proyecto.
+2. Abrir el archivo index.html en el navegador.
 
 No se requieren dependencias externas.
 
 🧭 Guía de Uso
 
-Ingresar el nombre de una ciudad.
-
-Presionar Agregar.
+* Ingresar el nombre de una ciudad.
+* Presionar Agregar.
 
 Visualizar:
 
 Temperatura actual
-
 Velocidad del viento
-
 Humedad
-
 Pronóstico de 5 días
-
 Eliminar ciudades usando el botón X.
 
 🖼️ Ejemplo de Resultado
@@ -49,36 +35,22 @@ Humedad: 65%
 ✨ Funcionalidades
 
 Búsqueda de ciudades
-
 Clima actual y pronóstico a 5 días
-
 Visualización de viento y humedad
-
 Uso de caché (localStorage)
-
 Manejo de errores
-
 Interfaz clara e intuitiva
 
 🚨 Manejo de Errores
 
 Validación de entradas vacías
-
 Mensajes para ciudades no encontradas
-
 Control de fallos de red o API
-
 Registro de errores en consola para depuración
 
 🌐 API Utilizada
 
-Open-Meteo API
-
-API pública y gratuita
-
-No requiere autenticación
-
-Proporciona datos meteorológicos confiables y actualizados
+Open-Meteo API, API pública y gratuita. No requiere autenticación. Proporciona datos meteorológicos confiables y actualizados.
 
 🔐 Seguridad y Ética
 
@@ -90,18 +62,12 @@ Uso responsable de una API pública respetando sus límites
 
 Código estructurado siguiendo buenas prácticas de codificación segura
 
-El uso de herramientas de IA se limita al apoyo educativo y desarrollo responsable
-
 Proyecto alineado con licencias abiertas y uso ético del software
 
 🚀 Mejoras Futuras
 
-Geolocalización automática
-
-Gráficas del clima
-
-Modo oscuro
-
-Pruebas automatizadas
-
-Diseño responsive avanzado
+* Geolocalización automática
+* Gráficas del clima
+* Modo oscuro
+* Pruebas automatizadas
+* Diseño responsive avanzado
