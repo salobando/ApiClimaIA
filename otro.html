@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input id="price" type="number" placeholder="Precio" />
+    <input id="quantity" type="number" placeholder="Cantidad" />
+    <button onclick="calculateTotal()">Calculate</button>
+    <p id="result"></p>
+
+    <script>
+        function calculateTotal() {
+            // Convertimos los valores a números usando Number()
+            const price = Number(document.getElementById("price").value);
+            const quantity = Number(document.getElementById("quantity").value);
+            
+            // Usamos multiplicación para el total
+            const total = price * quantity;
+            
+            // Mostramos el resultado
+            document.getElementById("result").innerText = "Total: $" + total.toFixed(2);
+        }
+    </script>
+</body>
+
+</html>
